@@ -3,8 +3,8 @@
 
 /**
  * Capitalizes the first letter of each word in the input string.
- * @param {string} input - The input string.
- * @returns {string} - The formatted string.
+  @param {string} input - The input string.
+  @returns {string} - The formatted string.
  */
 function capitalizeWords(input) {
     return input.replace(/\b\w/g, char => char.toUpperCase());
